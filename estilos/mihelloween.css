@@ -1,0 +1,124 @@
+@font-face {
+    font-family: maiden;
+    src: url('../tipografia/maiden.TTF');
+}
+body {background-color: black;}
+#container      {position:relative;
+                background-image:url("../imagenes/wallpapercalabazaedit.jpg");
+                width:1400px;
+                height:800px;
+}
+#titulo         {position:absolute;
+                top:20px;
+                left:20px;
+                font-family:'maiden';
+                font-size:3em;
+                color:yellow;
+                text-shadow:1px 1px 1px white;
+}
+#indicacion1    {position:absolute;
+                top:150px;
+                left:20px;
+                font-family:'maiden';
+                font-size:2em;
+                color:red;
+}
+#indicacion2   {position:absolute;
+                top:700px;
+                left:340px;
+                font-family:'maiden';
+                font-size:2em;
+                color:green;
+                text-shadow:1px 1px 1px white;
+}
+#eddie          {position:absolute;
+                top:250px;
+                left:1080px;
+                visibility:hidden;
+}
+#arbol          {position:absolute;
+                top:350px;
+                left:100px;
+                width:150px;
+                height:150px;
+}
+#witch          {position:absolute;
+                top:200px;
+                left:700px;
+                width:auto;
+                visibility:hidden;
+}
+#casa           {position:absolute;
+                top:400px;
+                left:700px;
+                width:200px;
+                height:200px;
+}
+#peluo          {position:absolute;
+                top:300px;
+                left:550px;
+                visibility:hidden;
+}
+#cielo          {position:absolute;
+                top:400px;
+                left:1100px;
+                width: 150px;
+                height:150px;
+}
+#fantasma       {position:absolute;
+                top:250px;
+                left:40px;
+                width:200px;
+                height:200px;
+                visibility:hidden;
+}
+#calabaza1      {position:absolute;
+                top:630px;
+                left:230px;
+                width:120px;
+                height:120px;
+}
+#calabaza2      {position:absolute;
+                top:625px;
+                left:400px;
+                width:120px;
+                height:120px;
+                
+}
+#calabaza3      {position:absolute;
+                top:625px;
+                left:580px;
+                width:120px;
+                height:120px;
+}
+#calabaza4     {position:absolute;
+                top:605px;
+                left:770px;
+                width:120px;
+                height:120px;
+}
+#calabaza5      {position:absolute;
+                top:625px;
+                left:965px;
+                width:120px;
+                height:120px;
+}
+#calabaza6      {position:absolute;
+                top:600px;
+                left:1170px;
+                width:120px;
+                height:120px;
+}
+#calabaza7      {position:absolute;
+                top:635px;
+                left:1325px;
+                width:120px;
+                height:120px;
+}
+#luna           {position:absolute;
+                top:120px;
+                left:1090px;
+                width:120px;
+                height:120px;
+                
+                }
