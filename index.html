@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="imagenes/favicon-16x16.ico">
+    
+    <title>PASE PARA NUESTRA FIESTA DE <br>
+    BAR MAIDEN</title>
+        <link rel="stylesheet" href="estilos/mihelloween.css">
+<script src="javascript/mihelloween.js"> 
+</script> 
+</head>
+<body  onload="sonar('sandman')">
+       <div id="container">
+        <audio id="sandman" src="audio/sandman.mp3" controls></audio>
+        <audio id="ozzy" src="audio/ozzy.mp3"></audio>
+        <audio id="pavarotti" src="audio/pavarotti.mp3"></audio>
+        <audio id="despeito" src="audio/despeito.mp3"></audio>
+        <audio id="leo" src="audio/leo.mp3"></audio>
+        <audio id="rapsodia" src="audio/rapsodia.mp3"></audio>
+        <audio id="teacher" src="audio/teacher.mp3"></audio>
+        <audio id="atulao" src="audio/atulao.mp3"></audio>
+        <audio id="ironjander" src="audio/ironjander.mp3"></audio>
+        <div id="calabaza1" onmouseover="mostrar('peluo'); sonar('ironjander')"; onmouseout="ocultar('peluo'); parar('ironjander')";></div>
+        <div id="calabaza2" onmouseover="mostrar('peluo'); sonar('leo')"; onmouseout="ocultar('peluo'); parar('leo')";></div>
+        <div id="calabaza3" onmouseover="mostrar('witch'); sonar('atulao')"; onmouseout="ocultar('witch'); parar('atulao')";></div>
+        <div id="calabaza4" onmouseover="mostrar('peluo'); sonar('rapsodia')"; onmouseout="ocultar('peluo'); parar('rapsodia')";></div>
+        <div id="calabaza5" onmouseover="mostrar('peluo'); sonar('teacher')"; onmouseout="ocultar('peluo'); parar('teacher')";></div>
+        <div id="calabaza6" onmouseover="mostrar('witch'); sonar('despeito')"; onmouseout="ocultar('witch'); parar('despeito')";></div>
+        <div id="calabaza7" onmouseover="mostrar('peluo'); sonar('pavarotti')"; onmouseout="ocultar('peluo'); parar('pavarotti')";></div>
+        <div id="luna" onmouseover="mostrar('peluo'); sonar('ozzy')"; onmouseout="ocultar('peluo'); parar('ozzy')"></div>
+        <p id="titulo">BAR MAIDEN<br> 
+        BIENVENIDO A NUESTRA FIESTA</p>
+        <p id="indicacion1">Trae una calabaza y te invitamos a una cerveza</p>
+        <p id="indicacion2">Cuidado con las calabazas venenosas</p>
+        <img id="fantasma" src="imagenes/fantasma.gif" width="500" height="500" style="visibility:hidden"; onmouseout="ocultar('fantasma')";>
+        <img id="eddie" src="imagenes/eddie.gif" width="350" height="350" style="visibility: hidden"; onmouseout="ocultar('eddie')";>
+        <img id="witch" src="imagenes/witchy.gif" width="300" height="300" style="visibility: hidden"; onmouseout="ocultar('witch')";>
+        <img id="peluo" src="imagenes/peluo.gif" width="174" height="240" style="visibility: hidden"; onmouseout="ocultar('peluo')";>
+        
+    </div>
+
+    
+        <div id="arbol" onmouseover="mostrar ('fantasma')";onmouseout="ocultar ('fantasma')"></div>
+        <div id="cielo" onmouseover="mostrar ('eddie')";onmouseout="ocultar ('eddie')"></div>
+        <div id="casa" onmouseover="mostrar ('witch')";onmouseout="ocultar ('witch')"></div>
+        <div id="casa" onmouseover="mostrar ('witch')";onmouseout="ocultar ('witch')"></div>
+</body>
+</html>
